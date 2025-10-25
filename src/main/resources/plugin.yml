@@ -1,0 +1,28 @@
+name: ManhuntX
+version: '1.0.0'
+main: de.scholle.manhuntX.ManhuntX
+api-version: '1.18'
+prefix: ManhuntX
+load: STARTUP
+authors: [ Mobilestars ]
+description: Description
+website: https://modrinth.com/project/manhuntx
+
+commands:
+  manhuntx:
+    description: Main ManhuntX command
+    usage: /manhuntx
+  compass:
+    description: Get tracking compass
+    usage: /compass [player]
+
+permissions:
+  manhuntx.op:
+    description: Full access to ManhuntX commands
+    default: true
+  manhuntx.runner:
+    description: Can become a runner
+    default: true
+  manhuntx.hunter:
+    description: Can become a hunter and use compass
+    default: true

@@ -1,0 +1,18 @@
+prefix: "ManhuntX"
+survive_minutes: 10
+preparation_seconds: 0
+preset_seconds: [0,5,10,15,30,60]
+messages:
+  start_hunter: "&eStart. Kill the Runner"
+  start_runner: "&eStart. Win by %challengetype%"
+  won_killer: "&aWon. %killer% killed the Runner %runner%!"
+  lose_dragon: "&cLose. %runner% killed the Enderdragon."
+  survive_win: "&aWon. %runner% survived %minutes% minutes."
+glow:
+  enabled: false
+  runner: false
+  hunter: false
+  time: 300
+  pause: 30
+  times: [0, 5, 10, 15, 30, 60]
+  pauses: [30, 60, 180, 300, 600]
